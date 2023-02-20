@@ -9,3 +9,4 @@ npm run dev
 ```
 
 - Credits to Fireship [full tutorial](https://youtu.be/Q7AOvWpIVHU) on YouTube
+- Check out [Three JS documentation](https://threejs.org/)
