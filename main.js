@@ -17,6 +17,7 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(30);
 
+// draw the scene onto the canvas element
 renderer.render(scene, camera);
 
 /* Create the Object*/
@@ -108,7 +109,8 @@ const moveCamera = () => {
 document.body.onscroll = moveCamera;
 moveCamera();
 
-// Recursive function that renders the scene every time the UI changes
+// Recursive function that renders the scene to sync up with the refresh rate of
+// your screen
 const animate = () => {
   // tells the browser that you want to perform an animation
   requestAnimationFrame(animate);
